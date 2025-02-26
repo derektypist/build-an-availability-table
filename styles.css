@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+  --color0: #ffffff;
+  --color1: #66FF33;
+  --color2: #00DF38;
+  --color3:  #00B65C;
+  --color4: #00a478;
+  --color5: #00794D;
+  --solid-border: 2px solid black;
+  --dashed-border: 2px dashed black; 
+}
+
+body {
+  font-family: Roboto, Arial, Verdana, sans-serif;
+  background-color: #ff6fea;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #7CBBFF;
+  
+  
+}
+
+th, td {
+  padding: 10px;
+  
+}
+
+.sharp td {
+  border-bottom: var(--solid-border);
+}
+
+.half td {
+  border-bottom: var(--dashed-border);
+  
+}
+
+
+
+.available-0 {
+  background-color: var(--color0);
+}
+
+.available-1 {
+  background-color: var(--color1);
+}
+
+.available-2 {
+  background-color: var(--color2);
+}
+
+.available-3 {
+  background-color: var(--color3);
+}
+
+.available-4 {
+  background-color: var(--color4);
+}
+
+.available-5 {
+  background-color: var(--color5);
+}
+
+#legend {
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+#legend #availability {
+  
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.right {
+  padding: 92%;
+  text-align: right;
+}
+
+#legend-gradient {
+  width: 100%;
+  height: 20px;
+  background-image: linear-gradient(to right, var(--color0) 0% 16%, var(--color1) 17% 33%, var(--color2) 34% 50%, var(--color3) 51% 66%, var(--color4) 67% 83%, var(--color5) 84% 100%);
+}
